@@ -1,0 +1,161 @@
+{
+    "data": {
+        "plan": {
+            "id": "b9807d92-e80e-44a6-afc8-111934130071",
+            "userId": "628277",
+            "name": "My new bathroom",
+            "shape": "Rectangle",
+            "lastModified": 1643861875888,
+            "styling": {
+                "baseWallCovering": {
+                    "tileId": "NT20-4012FL",
+                    "__typename": "WallCovering"
+                },
+                "__typename": "PlanStyling"
+            },
+            "ceiling": {
+                "id": "a41f16bc-ba11-4fac-8c05-fa51c82584ad",
+                "__typename": "Ceiling"
+            },
+            "walls": [
+                {
+                    "id": "b5f546dc-6c0f-4b31-8e72-eb764977de6a",
+                    "from": {
+                        "x": -1.5,
+                        "y": 0,
+                        "z": -1,
+                        "__typename": "PlannerVector3"
+                    },
+                    "to": {
+                        "x": 1.5,
+                        "y": 0,
+                        "z": -1,
+                        "__typename": "PlannerVector3"
+                    },
+                    "height": 2.4,
+                    "__typename": "Wall"
+                },
+                {
+                    "id": "5aabba1a-04bc-44e1-bd0d-e714092c4491",
+                    "from": {
+                        "x": 1.5,
+                        "y": 0,
+                        "z": -1,
+                        "__typename": "PlannerVector3"
+                    },
+                    "to": {
+                        "x": 1.5,
+                        "y": 0,
+                        "z": 1,
+                        "__typename": "PlannerVector3"
+                    },
+                    "height": 2.4,
+                    "__typename": "Wall"
+                },
+                {
+                    "id": "0d7d22c3-904a-479d-8e69-723b1b0ceeb3",
+                    "from": {
+                        "x": 1.5,
+                        "y": 0,
+                        "z": 1,
+                        "__typename": "PlannerVector3"
+                    },
+                    "to": {
+                        "x": -1.5,
+                        "y": 0,
+                        "z": 1,
+                        "__typename": "PlannerVector3"
+                    },
+                    "height": 2.4,
+                    "__typename": "Wall"
+                },
+                {
+                    "id": "c0abddd2-0186-4a6c-8c66-5951da1a53c2",
+                    "from": {
+                        "x": -1.5,
+                        "y": 0,
+                        "z": 1,
+                        "__typename": "PlannerVector3"
+                    },
+                    "to": {
+                        "x": -1.5,
+                        "y": 0,
+                        "z": -1,
+                        "__typename": "PlannerVector3"
+                    },
+                    "height": 2.4,
+                    "__typename": "Wall"
+                }
+            ],
+            "products": [
+                {
+                    "productId": "9500797",
+                    "id": "63c65427-1c11-47a5-9242-2567aac9c6a7",
+                    "parentId": null,
+                    "position": {
+                        "x": -1.348333333333333,
+                        "y": 0.00010000000000003416,
+                        "z": 0.1538003188194939,
+                        "__typename": "PlannerVector3"
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0.7071067811865475,
+                        "z": 0,
+                        "w": 0.7071067811865476,
+                        "__typename": "PlannerQuaternion"
+                    },
+                    "__typename": "ProductInPlan"
+                },
+                {
+                    "productId": "9506248",
+                    "id": "2725682a-8c2a-4cd0-b567-535885d752a5",
+                    "parentId": "5aabba1a-04bc-44e1-bd0d-e714092c4491",
+                    "position": {
+                        "x": 1.2498999999999996,
+                        "y": 0.00010000000000005622,
+                        "z": 0.3500999940395355,
+                        "__typename": "PlannerVector3"
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1,
+                        "__typename": "PlannerQuaternion"
+                    },
+                    "__typename": "ProductInPlan"
+                }
+            ],
+            "doors": [
+                {
+                    "id": "c1488ace-a999-4215-ab3f-efdf0d43e6ef",
+                    "parentId": "b5f546dc-6c0f-4b31-8e72-eb764977de6a",
+                    "style": "",
+                    "position": {
+                        "x": 1.5,
+                        "y": 0,
+                        "z": 0,
+                        "__typename": "PlannerVector3"
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1,
+                        "__typename": "PlannerQuaternion"
+                    },
+                    "width": 0.8,
+                    "height": 2,
+                    "__typename": "Door"
+                }
+            ],
+            "windows": [],
+            "partitionWalls": [],
+            "glassScreens": [],
+            "rulers": [],
+            "obstacles": [],
+            "__typename": "Plan"
+        }
+    }
+}
