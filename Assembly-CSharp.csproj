@@ -65,6 +65,7 @@
      <Compile Include="Assets\UnityLitJson\JsonWriter.cs" />
      <Compile Include="Assets\UnityLitJson\JsonException.cs" />
      <Compile Include="Assets\UnityLitJson\JsonAttribute.cs" />
+     <None Include="Assets\Scripts\Shaders\FeatheredPlaneShader.shader" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity projects/2020.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
